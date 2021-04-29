@@ -4,16 +4,19 @@
   "description": "stock ticker app",
   "main": "process.js",
   "scripts": {
-  "start": "node process.js"
-},
+    "start": "node process.js"
+  },
   "repository": {
-  "type": "git",
-  "url": ""
-},
+    "type": "git",
+    "url": ""
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
-  "url": ""
-},
-  "homepage": "index.html"
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "mongodb": "^3.6.6"
+  }
 }
