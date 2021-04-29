@@ -2,9 +2,9 @@
   "name": "stock-ticker",
   "version": "1.0.0",
   "description": "stock ticker app",
-  "main": "process.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node process.js"
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
