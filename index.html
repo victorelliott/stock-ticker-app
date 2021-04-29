@@ -4,9 +4,10 @@
 </head>
 <body>
     <h1>Enter a stock ticker or a company name: </h1>
-    <form method="get" action="process.js">
-        <div>Stock Ticker: <input type="text" /></div>
-        <div>Company Name: <input type="text" /></div>
+    <form method="get" action="http://localhost:8080/">
+        <div><input type="text" name="input"/></div>
+        <div><input type="radio" id="ticker" name="type" value="ticker"> Stock Ticker</div>
+        <div><input type="radio" id="name" name="type" value="name">Company Name </div>
         <input type="submit">
     </form>
 </body>
